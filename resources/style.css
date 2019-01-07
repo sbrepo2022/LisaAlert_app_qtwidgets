@@ -1,0 +1,206 @@
+#mainStackedWidget, #contentStackedWidget, #settingsScrollArea, #messagesScrollArea, #settingsScrollAreaWidgetContents {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+#centralWidget {
+    background-color: #f2f2f2;
+}
+
+/*#line1, #line2 {
+    border: none;
+    background-color: #aaa;
+}*/
+
+#loginPage {
+    background-color: rgba(0, 0, 0, 0);
+    border-image: url(":/textures/background.svg");
+}
+
+#settingsPage {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#settingsLabelWidget, #infoLabelWidget {
+    background: rgba(0, 0, 0, 0);
+    border-image: url(":/textures/background2.svg");
+}
+
+#loginWidget, #layersWidget, #infoWidget  {
+    background-color: #fff;
+    border: solid;
+    /*border-width: 1px;
+    /*border-radius: 8px;*/
+    border-color: #ccc;
+}
+
+#titleLabel, #settingsLabel, #infoLabel {
+    color: #fff;
+}
+
+#loginLabel {
+}
+
+#errorLabel {
+    color: #f00;
+}
+
+#connectButton, #quiteButton {
+    background-color: #111;
+    color: #fff;
+
+    padding: 10px;
+
+    border: none;
+
+    border-radius: 8px;
+}
+
+#connectButton:pressed, #quiteButton:pressed {
+    background-color: #000;
+}
+
+#tokenEdit {
+    background-color: #f8f8f8;
+
+    padding: 10px;
+
+    border: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-color: #ccc;
+}
+
+#nameEdit, #messageEdit {
+    background-color: #f8f8f8;
+
+    padding: 10px;
+
+    border: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: #ccc;
+}
+
+#photoTokenButton {
+    background-color: rgb(0, 149, 221);
+
+    padding: 10px;
+
+    border: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-color: rgb(0, 117, 189);
+
+    image: url(":/textures/photo.png");
+}
+
+/*main page*/
+#mapMenuButton, #messengerMenuButton, #settingsMenuButton, #infoMenuButton {
+    border: none;
+    background-color: #fff;
+    padding: 10px;
+}
+
+#mapMenuButton {
+    image: url(":/textures/navigation.svg");
+}
+
+#messengerMenuButton {
+    image: url(":/textures/message.svg");
+}
+
+#settingsMenuButton {
+    image: url(":/textures/settings.svg");
+}
+
+#infoMenuButton {
+    image: url(":/textures/info.svg");
+}
+
+#mapMenuButton:checked, #messengerMenuButton:checked, #settingsMenuButton:checked, #infoMenuButton:checked {
+    background-color: #eee;
+}
+
+#mapMenuButton:unchecked, #messengerMenuButton:unchecked, #settingsMenuButton:unchecked, #infoMenuButton:unchecked {
+    background-color: #fff;
+}
+
+#trackingButton {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    image: url(":/textures/tracking_off.svg");
+}
+
+#trackingButton:checked {
+    image: url(":/textures/tracking_on.svg");
+}
+
+#trackingButton:unchecked {
+    image: url(":/textures/tracking_off.svg");
+}
+
+#tracksLayerButton {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    image: url(":/textures/tracks_layer_off.svg");
+}
+
+#tracksLayerButton:checked {
+    image: url(":/textures/tracks_layer_on.svg");
+}
+
+#tracksLayerButton:unchecked {
+    image: url(":/textures/tracks_layer_off.svg");
+}
+
+#searchAreasLayerButton {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    image: url(":/textures/search_areas_layer_off.svg");
+}
+
+#searchAreasLayerButton:checked {
+    image: url(":/textures/search_areas_layer_on.svg");
+}
+
+#searchAreasLayerButton:unchecked {
+    image: url(":/textures/search_areas_layer_off.svg");
+}
+
+#markersLayerButton {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    image: url(":/textures/markers_layer_off.svg");
+}
+
+#markersLayerButton:checked {
+    image: url(":/textures/markers_layer_on.svg");
+}
+
+#markersAreasLayerButton:unchecked {
+    image: url(":/textures/markers_layer_off.svg");
+}
+
+#sendMessageButton {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+
+    padding: 5px;
+
+    image: url(":/textures/send.svg");
+}
+
+#messagesWidget {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+#messengerPage {
+    /*background-color: #f2f2f2;*/
+    border-image: url(":/textures/background3.svg");
+}

@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/style.css</file>
+        <file>textures/photo.png</file>
+        <file>textures/lisa_alert.png</file>
+        <file>textures/background.svg</file>
+        <file>textures/background2.svg</file>
+        <file>textures/background3.svg</file>
+        <file>textures/navigation.svg</file>
+        <file>textures/settings.svg</file>
+        <file>textures/message.svg</file>
+        <file>textures/info.svg</file>
+        <file>textures/send.svg</file>
+        <file>fonts/SF-UI-Display-Regular.ttf</file>
+        <file>fonts/SF-UI-Text-Regular.ttf</file>
+        <file>fonts/SF-UI-Text-Bold.ttf</file>
+        <file>map.qml</file>
+        <file>textures/markers_layer_off.svg</file>
+        <file>textures/markers_layer_on.svg</file>
+        <file>textures/search_areas_layer_off.svg</file>
+        <file>textures/search_areas_layer_on.svg</file>
+        <file>textures/tracking_off.svg</file>
+        <file>textures/tracking_on.svg</file>
+        <file>textures/tracks_layer_off.svg</file>
+        <file>textures/tracks_layer_on.svg</file>
+        <file>map_logic.js</file>
+    </qresource>
+</RCC>
