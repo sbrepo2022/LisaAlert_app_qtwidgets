@@ -1,0 +1,1 @@
+The application was developed at the LisaAlert Search and Rescue team hackathon. This is the first version written in QtWidgets.
